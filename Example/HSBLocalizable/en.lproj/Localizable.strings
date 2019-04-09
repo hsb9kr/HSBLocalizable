@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  HSBLocalizable
+
+  Created by 홍상보 on 09/04/2019.
+  Copyright © 2019 CocoaPods. All rights reserved.
+*/
+"Hi" = "Hi";
+"Hello" = "Hello";

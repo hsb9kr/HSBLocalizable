@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import HSBLocalizable
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+	@IBOutlet var hiLabel: UILabel!
+	@IBOutlet var helloLabel: UILabel!
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        hiLabel.text = "Hi".localizable()
+		helloLabel.text = "Hello".localizable()
     }
 
     override func didReceiveMemoryWarning() {
