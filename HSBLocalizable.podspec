@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'HSBLocalizable'
   s.version          = '0.0.1'
   s.summary          = 'HSBLocalizable simple string localizable.'
+  s.swift_version    = '5'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,5 +29,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HSBLocalizable/Classes/**/*'
+  s.source_files = 'HSBLocalizable/Classes/*.swift'
 end
