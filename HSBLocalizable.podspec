@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSBLocalizable'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'simple string localizable.'
   s.swift_version    = '5'
 
