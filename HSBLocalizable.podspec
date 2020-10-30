@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSBLocalizable'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'simple string localizable.'
   s.swift_version    = '5'
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Red' => 'hsb9kr@gmail.com' }
   s.source           = { :git => 'https://github.com/hsb9kr/HSBLocalizable.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HSBLocalizable/Classes/*.swift'
 end
